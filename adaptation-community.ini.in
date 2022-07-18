@@ -5,4 +5,4 @@ description = Enable ssu for community ports
 
 [repositories]
 adaptation-community = https://repo.sailfishos.org/obs/nemo:/@FLAVOUR@:/hw:/@VENDOR@:/@DEVICE@:/%(release)/sailfish_%(release)_%(arch)
-
+adaptation-community-kernel = https://repo.sailfishos.org/obs/nemo:/@FLAVOUR@:/hw:/@VENDOR@:/@DEVICE@:/%(release)/sailfish_%(release)_i486
