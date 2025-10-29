@@ -26,7 +26,7 @@ mkdir -p $RPM_BUILD_ROOT/%{_datadir}/community-adaptation/
 %if "%{flavour}" != "localbuild"
 sed -e "s|@FLAVOUR@|%{flavour}|g" \
 %if "%{flavour}" != "testing"
-    -e "s|:/%%(releaseMajorMinor)/sailfishos_%%(releaseMajorMinor)_%%(arch)|/sailfish_latest_%%(arch)|g" \
+    -e "s|:/%%(releaseMajorMinor)/sailfishos_%%(releaseMajorMinor)|/sailfish_latest|g" \
 %endif
     adaptation-community.ini.in > $RPM_BUILD_ROOT/%{_datadir}/community-adaptation/adaptation-community.ini.in
 %else
