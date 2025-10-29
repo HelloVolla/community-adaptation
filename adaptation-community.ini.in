@@ -5,4 +5,4 @@ description = Enable ssu for community ports
 
 [repositories]
 adaptation-community = https://repo.sailfishos.org/obs/nemo:/@FLAVOUR@:/hw:/@VENDOR@:/@DEVICE@:/%(releaseMajorMinor)/sailfishos_%(releaseMajorMinor)
-adaptation-halium = https://repo.sailfishos.org/obs/nemo:/@FLAVOUR@:/hw:/halium:/@HALIUMRELEASE@:/%(releaseMajorMinor)/sailfish_%(releaseMajorMinor)_%(arch)
+adaptation-halium = https://repo.sailfishos.org/obs/nemo:/@FLAVOUR@:/hw:/halium:/@HALIUMRELEASE@:/%(releaseMajorMinor)/sailfishos_%(releaseMajorMinor)_%(arch)
